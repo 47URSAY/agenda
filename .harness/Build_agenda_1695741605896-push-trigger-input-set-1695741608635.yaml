@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_agenda_1695741605896-push-trigger-input-set
+  identifier: Build_agenda_1695741605896pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Agenda
+  pipeline:
+    identifier: Build_agenda_1695741605896
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
