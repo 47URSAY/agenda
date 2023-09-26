@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_agenda_1695741605896-pr-trigger-input-set
+  identifier: Build_agenda_1695741605896prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Agenda
+  pipeline:
+    identifier: Build_agenda_1695741605896
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
